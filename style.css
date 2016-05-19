@@ -1,0 +1,15 @@
+body {
+  padding: 50px 10px 10px 10px;
+  background-color: #eeeef0
+}
+
+h1 {
+  background-color: #345;
+  color: #eeeef0;
+  padding: 10px 10px 10px 10px;
+}
+
+.main-body {
+  font-family: Merriweather;
+  line-height: 1.8;
+}
