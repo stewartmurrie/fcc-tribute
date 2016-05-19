@@ -1,15 +1,16 @@
 body {
-  padding: 50px 10px 10px 10px;
+   /*padding: 50px 10px 10px 10px; */
   background-color: #eeeef0
+  padding: 20px 10%;
 }
 
 h1 {
   background-color: #345;
   color: #eeeef0;
-  padding: 10px 10px 10px 10px;
+  padding: 15px;
 }
 
 .main-body {
   font-family: Merriweather;
-  line-height: 1.8;
+  line-height: 1.8em;
 }
