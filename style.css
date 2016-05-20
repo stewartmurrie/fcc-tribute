@@ -2,6 +2,8 @@ body {
    /*padding: 50px 10px 10px 10px; */
   background-color: #eeeef0
   padding: 20px 10%;
+  max-width: 960px;
+  margin: 20px auto 20px auto;
 }
 
 h1 {
@@ -10,7 +12,7 @@ h1 {
   padding: 15px;
 }
 
-.main-body {
+.main-body, .first-para {
   font-family: Merriweather;
   line-height: 1.8em;
 }
