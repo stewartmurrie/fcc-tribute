@@ -1,21 +1,29 @@
 body {
     padding: 50px 10px 10px 10px;
     background-color: #eeeef0
+    font-family: Raleway, sans-serif;
 }
 h1 {
     background-color: #345;
     color: #eeeef0;
     padding: 10px 10px 10px 10px;
+
 }
+h1,h2,h3,h4,h5,h6 {
+
+
+}
+
+
 .lead {
     font-weight: 700;
 }
 figcaption {
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 90%;
 }
 .main-body {
-    font-family: Merriweather;
+    font-family: Merriweather, serif;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -33,7 +41,7 @@ blockquote {
     padding: 10%;
     background-color: rgba(121, 161, 200, 0.25);
     color: rgb(178, 139, 72);
-    font-family: sans-serif;
+
     letter-spacing: 1px;
     font-style: oblique;
     line-height: 1.5;
