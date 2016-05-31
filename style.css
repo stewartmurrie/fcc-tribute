@@ -1,51 +1,78 @@
 body {
-    padding: 50px 10px 10px 10px;
-    background-color: #eeeef0
-    font-family: Raleway, sans-serif;
+  padding: 50px 10px 10px 10px;
+  background-color: #eeeef0;
+  font-family: Raleway, sans-serif;
 }
 h1 {
-    background-color: #345;
-    color: #eeeef0;
-    padding: 10px 10px 10px 10px;
-
+  background-color: #345;
+  color: #eeeef0;
+  padding: 10px 10px 10px 10px;
 }
-h1,h2,h3,h4,h5,h6 {
-
-
-}
-
-
+h1, h2, h3, h4, h5, h6 {}
 .lead {
-    font-weight: 700;
+  font-weight: 700;
 }
 figcaption {
-    font-family: Raleway, sans-serif;
-    font-size: 90%;
+  font-family: Raleway, sans-serif;
+  font-size: 90%;
+}
+
+article>.row {
+  margin-top: 1em;
+}
+
+.main-section {
+  margin-bottom: 2em;
+}
+
+.lead {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
 }
 .main-body {
-    font-family: Merriweather, serif;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-width: 250px;
-    -moz-column-width: 250px;
-    column-width: 250px;
-    font-size: 100%;
-    line-height: 1.8;
+  font-family: Merriweather, serif;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-width: 250px;
+  -moz-column-width: 250px;
+  column-width: 250px;
+  font-size: 100%;
+  line-height: 1.8;
+  margin-top: 1em;
 }
 footer {
-    font-style: normal;
-    font-weight: 700;
+  font-style: normal;
+  font-weight: 700;
 }
 blockquote {
-    padding: 10%;
-    background-color: rgba(121, 161, 200, 0.25);
-    color: rgb(178, 139, 72);
-
-    letter-spacing: 1px;
-    font-style: oblique;
-    line-height: 1.5;
-    font-weight: 300;
-    font-size: 150%;
-    border-radius: 0px 10px 10px 00px;
+  padding: 10%;
+  background-color: rgba(121, 161, 200, 0.25);
+  color: rgb(178, 139, 72);
+  letter-spacing: 1px;
+  font-style: oblique;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 150%;
+  /*border-radius: 0px 10px 10px 00px;*/
+}
+aside {
+  background: #345;
+  color: #eeeef0;
+  padding: 1.5em;
+}
+aside h2 {
+  font-family: Merriweather, serif;
+  margin-bottom: 1em;
+}
+aside p {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  line-height: 175%;
+  letter-spacing: 2px;
+  font-size: 100%;
+  margin: 1.5em auto;
+}
+.ist{
+  max-width: 200px;
 }
