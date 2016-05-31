@@ -3,28 +3,30 @@ body {
   background-color: #eeeef0;
   font-family: Raleway, sans-serif;
 }
-h1 {
+.lead {
+  font-weight: 600;
+}
+#main-title {
   background-color: #345;
   color: #eeeef0;
   padding: 10px 10px 10px 10px;
+  font-weight: 600;
 }
-h1, h2, h3, h4, h5, h6 {}
-.lead {
-  font-weight: 700;
+#sub-title {
+  font-weight: 200;
+  font-size: 145%;
 }
 figcaption {
   font-family: Raleway, sans-serif;
+  font-weight: 600;
   font-size: 90%;
 }
-
 article>.row {
   margin-top: 1em;
 }
-
 .main-section {
   margin-bottom: 2em;
 }
-
 .lead {
   font-family: Raleway, sans-serif;
   font-weight: 600;
@@ -51,9 +53,10 @@ blockquote {
   color: rgb(178, 139, 72);
   letter-spacing: 1px;
   font-style: oblique;
-  line-height: 1.5;
-  font-weight: 300;
+  line-height: 1.75;
+  font-weight: 600;
   font-size: 150%;
+  font-family: Raleway, sans-serif;
   /*border-radius: 0px 10px 10px 00px;*/
 }
 aside {
@@ -73,8 +76,7 @@ aside p {
   font-size: 100%;
   margin: 1.5em auto;
 }
-.ist{
+.ist {
   max-width: 150px;
-
   margin: auto;
 }
