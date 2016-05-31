@@ -74,5 +74,7 @@ aside p {
   margin: 1.5em auto;
 }
 .ist{
-  max-width: 200px;
+  max-width: 150px;
+
+  margin: auto;
 }
